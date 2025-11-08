@@ -31,3 +31,19 @@ Finance Layer: source funding through crowd funding, insurance, loan and governm
 Farm Profile Layer:  inventory tracking and farm calendar, about, size, GPS enabled location and local language setting
 
 # Technologies
+
+Web and Mobile Interface: To access Fama from any device
+
+AI Agents: Gives summary, Forecast and advice to optimise workflow
+
+Online Storage: Keeps track of farm inventory, sales and funding
+
+Secure Payment and Fund Tracking: Ensure safe transactions for both buyers and investors
+
+Map and Local Language Support: Help set up farm loaction and size, and navigate easily
+
+Notifications:Keep everyone update
+
+# Value Proposition
+
+An all in one transparent (investors), traceable (buyers), and trusted platform (Farm Management Team) to ease agric business 
