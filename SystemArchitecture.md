@@ -238,26 +238,26 @@ The backend communicates with the frontend via secure **HTTPS (SSL)** endpoints 
 ### Scalability: Microservice-ready architecture for future scaling.
 
 ### Security:
-Use HTTPS across all communications.
+- Use HTTPS across all communications.
 
-Apply JWT for session management.
+- Apply JWT for session management.
 
-Sanitize inputs to prevent SQL Injection/XSS.
+- Sanitize inputs to prevent SQL Injection/XSS.
 
 ### Constraints:
 
-Internet connectivity dependency for farmers in rural areas.
+- Internet connectivity dependency for farmers in rural areas.
 
-Initial language support may be limited to top 3 local languages.
+- Initial language support may be limited to top 3 local languages.
 
 ## Future Enhancements
-AI-powered farm analytics and yield prediction.
+- AI-powered farm analytics and yield prediction.
 
-IoT sensor integration for precision farming.
+- IoT sensor integration for precision farming.
 
-Offline-first mobile experience.
+- Offline-first mobile experience.
 
-Blockchain for transparent transaction and traceability.
+- Blockchain for transparent transaction and traceability.
 
 
 
