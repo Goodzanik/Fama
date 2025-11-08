@@ -1,6 +1,6 @@
 # Fama | An all in one transparent platform to ease Agric-business
 
-#What does Fama do?
+# What does Fama do?
 
 Fama is an all in one digital platform for farmer/farm management team to track inventory, list produce before harvest, get access to funding, and get assisted by AI in optimizing workflow.
 
