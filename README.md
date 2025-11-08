@@ -1,6 +1,4 @@
-# Fama
-
-An all in one transparent platform to ease Agric-business
+# Fama | An all in one transparent platform to ease Agric-business
 
 What does Fama do?
 
