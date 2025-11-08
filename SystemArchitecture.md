@@ -344,6 +344,61 @@ Payments
 | reference | String | Payment reference from gateway |
 | created_at | Timestamp | Transaction time |
 
+Investments
+| Field | Type | Description |
+|--------|------|-------------|
+| investment_id | UUID | Primary Key |
+| investor_id | UUID | FK (Users) |
+| farm_id | UUID | FK (FarmProfiles) |
+| amount | Decimal | Investment amount |
+| roi | Decimal | Return on Investment |
+| status | Enum (Active, Completed) | Investment status |
+| created_at | Timestamp | Date of investment |
+
+---
+
+## Notifications
+| Field | Type | Description |
+|--------|------|-------------|
+| notification_id | UUID | Primary Key |
+| user_id | UUID | FK (Users) |
+| type | Enum (Payment, Message, Update) | Notification category |
+| content | Text | Notification message |
+| is_read | Boolean | Read status |
+| created_at | Timestamp | Notification time |
+
+---
+
+# 6.4 API Endpoints
+
+| Purpose | Endpoint | Method | Description |
+|----------|-----------|---------|-------------|
+| User Registration | `/api/users/register` | POST | Create new user |
+| Login | `/api/users/login` | POST | Authenticate user |
+| Verify Account | `/api/users/verify` | POST | Update verification status |
+| Create Farm | `/api/farms` | POST | Add farm profile |
+| Get Farm Info | `/api/farms/:id` | GET | Retrieve farm details |
+| Add Project | `/api/projects` | POST | Create new project |
+| Get Projects | `/api/projects/:farmId` | GET | View all farm projects |
+| List Crop | `/api/listings` | POST | Create new listing |
+| Get Listings | `/api/listings` | GET | Fetch available listings |
+| Chat | `/api/messages` | POST/GET | Send or retrieve messages |
+| Make Payment | `/api/payments/initiate` | POST | Start transaction |
+| Verify Payment | `/api/payments/verify` | POST | Confirm payment |
+| Get News | `/api/news` | GET | Retrieve agricultural updates |
+
+---
+
+# 6.5 Third-Party Integrations
+
+| Service | Use Case | Integration Method |
+|----------|-----------|--------------------|
+| Paystack / Flutterwave | Payment gateway | REST API |
+| Firebase / Socket.io | Real-time chat | WebSocket |
+| Google Maps | Farm location | Map Embed + Geocoding API |
+| Twilio / SendGrid | Notifications | SMS/Email API |
+| Google Translate API | Localization | Translation API |
+| News API | News feed | REST API |
 
 
 
