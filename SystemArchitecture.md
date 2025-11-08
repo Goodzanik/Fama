@@ -136,37 +136,21 @@ Communication between frontend and backend occurs through secure HTTPS (SSL) end
 
 # Recommended Tech Stack:
 
-Frontend
+Frontend: React.js / Next.js (Web), React Native (Mobile)
 
-React.js / Next.js (Web), React Native (Mobile)
+Backend: Node.js + Express.js (API Layer)
 
-Backend
+Database: PostgreSQL (Relational) or MongoDB (Document-based)
 
-Node.js + Express.js (API Layer)
+Realtime Chat: Firebase Realtime DB or Socket.io
 
-Database
+Payment: Paystack / Flutterwave
 
-PostgreSQL (Relational) or MongoDB (Document-based)
+Translation: Google i18n / Google Cloud Translate
 
-Realtime Chat
+Hosting: AWS (EC2, S3, RDS) or Render
 
-Firebase Realtime DB or Socket.io
-
-Payment
-
-Paystack / Flutterwave
-
-Translation
-
-Google i18n / Google Cloud Translate
-
-Hosting
-
-AWS (EC2, S3, RDS) or Render
-
-Authentication
-
-JWT + bcrypt for hashing
+Authentication: JWT + bcrypt for hashing
 
 # Detailed Technical Specifications
 
